@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#171321">
+  <meta name="description" content="Jelajahi perjalanan profesional Dandy Aryo Putra melalui portofolio interaktif bergaya ponsel.">
+  <title>Dandy Aryo Putra — sebuah portofolio interaktif</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="site-shell">
+    <aside class="editorial" aria-label="Pengantar portofolio">
+      <div class="brand"><span class="brand-mark">DA</span><span>DANDY ARYO PUTRA <small>PERSONAL PORTFOLIO</small></span></div>
+      <div class="editorial-copy">
+        <span class="eyebrow"><span class="sparkle">✳</span> SEBUAH PORTOFOLIO INTERAKTIF</span>
+        <h1>Setiap proyek<br>punya <em>cerita.</em></h1>
+        <p>Buka ponselnya. Telusuri pesan, arsip, dan karya untuk mengenal cara saya menghubungkan HSSE, bisnis, dan proses kerja.</p>
+        <div class="editorial-line"><span>01 / 04</span><span class="line"></span><span>GESER CERITANYA</span></div>
+      </div>
+      <div class="footnote">Pengalaman dan proyek diambil dari materi portofolio Dandy. Tampilan percakapan adalah cara bercerita, bukan transkrip pribadi.</div>
+    </aside>
+
+    <main class="phone-stage">
+      <div class="stage-glow" aria-hidden="true"></div>
+      <div class="phone" id="phone">
+        <div class="phone-top" aria-hidden="true"><span class="lens"></span></div>
+        <div class="phone-screen">
+          <div class="statusbar"><span id="clock">09:41</span><span class="status-icons" aria-hidden="true">▰  ▂▃▅  ●</span></div>
+
+          <section class="lockscreen" id="lockscreen" aria-label="Layar kunci portofolio">
+            <div class="wallpaper-orb orb-a"></div><div class="wallpaper-orb orb-b"></div>
+            <div class="lock-content">
+              <span class="lock-icon" aria-hidden="true">♧</span>
+              <p class="lock-date" id="lockDate">KAMIS, 12 NOVEMBER</p>
+              <div class="lock-time" id="lockTime">09:41</div>
+              <div class="lock-hello">Ada cerita di balik<br>setiap sistem.</div>
+            </div>
+            <button class="notification" id="notification" type="button">
+              <span class="notif-icon">✦</span><span class="notif-body"><strong>Portofolio Dandy <small>sekarang</small></strong><span>Ketuk untuk mulai menjelajah.</span></span>
+            </button>
+            <button class="unlock" id="unlock" type="button">Buka portofolio <span aria-hidden="true">↑</span></button>
+          </section>
+
+          <section class="homescreen hidden" id="homescreen" aria-label="Beranda ponsel">
+            <div class="home-backdrop"></div>
+            <div class="home-header"><span class="home-kicker">DANDY'S SPACE · 2026</span><h2>Halo,<br><i>selamat datang.</i></h2><p>Pilih aplikasi untuk membuka satu bagian cerita.</p></div>
+            <div class="apps" id="apps">
+              <button class="app" data-app="messages"><span class="app-icon messages-icon">▤<b id="badge">3</b></span><span>Pesan</span></button>
+              <button class="app" data-app="gallery"><span class="app-icon gallery-icon">✿</span><span>Galeri</span></button>
+              <button class="app" data-app="archive"><span class="app-icon archive-icon">▦</span><span>Arsip</span></button>
+              <button class="app" data-app="notes"><span class="app-icon notes-icon">✎</span><span>Catatan</span></button>
+              <button class="app" data-app="contact"><span class="app-icon contact-icon">↗</span><span>Kontak</span></button>
+            </div>
+            <div class="home-prompt"><span>✦</span><p>Mulai dari <strong>Pesan</strong> kalau ingin mengikuti ceritanya dari awal.</p></div>
+            <div class="dock"><span class="dock-dot active"></span><span class="dock-dot"></span><span class="dock-dot"></span></div>
+          </section>
+
+          <section class="app-screen hidden" id="appScreen" aria-live="polite">
+            <header class="app-header"><button id="backButton" class="back-button" aria-label="Kembali ke beranda" type="button">‹</button><div><span class="header-overline" id="appOverline">DANDY'S SPACE</span><h2 id="appTitle">Pesan</h2></div><button id="homeButton" class="home-button" aria-label="Beranda" type="button">⌂</button></header>
+            <div class="app-body" id="appBody"></div>
+          </section>
+          <button id="gestureBar" class="gesture-bar" type="button" aria-label="Kembali ke beranda"><span></span></button>
+        </div>
+      </div>
+      <div class="stage-caption"><span>PORTFOLIO EXPERIENCE</span><span>BUKA • TEMUKAN • KENALI</span></div>
+    </main>
+  </div>
+</body>
+</html>
